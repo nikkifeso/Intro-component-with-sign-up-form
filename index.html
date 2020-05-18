@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  
+  <title>Frontend Mentor | Intro component with sign up form</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <!--  -->
+</head>
+<body>
+  <div class="container">
+
+    <div class="left-side">
+      <h1>Learn to code by <br>watching others</h1>
+
+    <p>See how experienced developers solve problems in real-time. Watching scripted tutorials is great, 
+      but understanding how developers think is invaluable. </p>
+
+    </div>
+
+    <div class="right-side">
+      <div class="box text-box">
+        <p><b>Try it free</b> 7 days then $20/mo. thereafter</p>
+      </div>
+
+      <form class="box white-box" action="#" id="form">
+        <div class="form-control">
+          <input type="text" aria-labelledby="form" placeholder="First Name" id="f-name">
+          <img src="images/icon-error.svg" alt="error" >
+          <small></small>
+        </div>
+
+        <div class="form-control">
+          <input type="text" aria-labelledby="form" placeholder="Last Name" id="l-name">
+          <img src="images/icon-error.svg" alt="error">
+          <small></small>
+        </div>
+
+        <div class="form-control">
+          <input type="email" aria-labelledby="form" placeholder="Email Address" id="email">
+          <img src="images/icon-error.svg" alt="error">
+          <small></small>
+          <!-- <small class="warning">Email cannot be empty</small> -->
+        </div>
+
+        <div class="form-control">
+          <input type="password"aria-labelledby="form"  placeholder="Password" id="password">
+          <img src="images/icon-error.svg" alt="error">
+          <small></small>
+        </div>
+       
+        <button type="submit" id ="button">
+          <b>CLAIM YOUR FREE TRIAL</b>
+        </button><br>
+        <div class="terms"><small class="conditions">By clicking the button, you are agreeing to our <span><a href="#">Terms and Services</a></span></small></div>
+    </form> 
+    </div>
+  
+
+  </div>
+  
+ <script src ="script.js"></script>
+</body>
+</html>
